@@ -128,6 +128,6 @@ function isPalindrome(word) {
 isPalindrome(words)
 
 
-// fruits=['apple']
-// fruits.push('🥝', '🍑');
-// console.log(fruits);
+fruits=['apple']
+fruits.push('🥝', '🍑');
+console.log(fruits);
