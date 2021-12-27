@@ -1,0 +1,49 @@
+body {
+  height: 200vh;
+}
+#section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+}
+
+.contents {
+  width: 300px;
+  height: 300px;
+  margin-right: 15px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  background-color: blueviolet;
+  overflow: hidden;
+}
+
+/* y축 방향으로 좌표를 아래쪽으로 100px만큼 내린다. */
+.up {
+  transform: translate(0, 100px);
+}
+/* 
+   y방향으로 100px 만큼 위쪽으로 올린다.  */
+.down {
+  transform: translate(0, -100px);
+}
+
+/* x축 방향으로 좌표를 오른쪽으로 100px만큼 내린다. */
+.right {
+  transform: translate(100px, 0);
+}
+/* 
+     x방향으로 -100px 만큼 왼쪽으로 올린다.  */
+.left {
+  transform: translate(-100px, 0);
+}
+
+.show {
+  opacity: 1;
+  transform: none;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
